@@ -42,5 +42,12 @@ float toGrayScaleLightness(int red,int green , int blue)
   return greyScaleValue;
 }
 
+//toGrayScaleLuminosity
+
+float toGrayScaleLuminosity(int red , int green , int blue)
+{
+float greyScaleValue= (0.21 * red)+ (0.72 * green) + (0.07 * blue);
+return greyScaleValue;
+}
 
 
