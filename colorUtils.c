@@ -64,4 +64,9 @@ float toSepiaGreen(int red , int green , int blue)
 return sepiaGreen;
 }
 
-
+//tosepiaBlue function
+float toSepiaBlue(int red , int green , int blue)
+{
+  float sepiaBlue= (0.272 *red)+ (0.534 * green) +(0.131 * blue);
+return sepiaBlue;
+}
