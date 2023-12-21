@@ -50,4 +50,11 @@ float greyScaleValue= (0.21 * red)+ (0.72 * green) + (0.07 * blue);
 return greyScaleValue;
 }
 
+//tosepiaRed function
+float toSepiaRed(int red , int green , int blue)
+{
+  float sepiaRed= (0.393 *red)+ (0.769* green) +(0.189 * blue);
+return sepiaRed;
+}
+
 
