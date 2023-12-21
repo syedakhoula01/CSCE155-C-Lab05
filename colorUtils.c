@@ -34,5 +34,13 @@ else
 }
 }
 
+// toGrayScaleLightness function
+
+float toGrayScaleLightness(int red,int green , int blue)
+{
+  float greyScaleValue = (max(red, green, blue) + min(red, green, blue))/2;
+  return greyScaleValue;
+}
+
 
 
